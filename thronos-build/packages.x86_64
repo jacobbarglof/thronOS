@@ -138,7 +138,6 @@ network-manager-applet
 iwd
 chromium
 plymouth
-plymouth-breeze-theme
 
 # Wayland stack
 xorg-xwayland
