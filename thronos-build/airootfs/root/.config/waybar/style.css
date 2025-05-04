@@ -1,0 +1,41 @@
+:root {
+    --foreground: #00ffff;
+    --foreground-inactive: #005555;
+    --background: #000000;
+}
+
+* {
+    font-family: "Plex Mono", monospace;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+#waybar {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+#workspaces button {
+    color: var(--foreground);
+    padding-left: 0.7em;
+}
+
+#workspaces button.empty {
+    color: var(--foreground-inactive);
+}
+
+#memory,
+#temperature {
+    padding-left: 1em
+}
+
+#wireplumber,
+#battery,
+#backlight,
+#language,
+#network,
+#bluetooth,
+#tray {
+    padding-right: 1em 
+}

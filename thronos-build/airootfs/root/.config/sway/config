@@ -1,0 +1,97 @@
+### THRONOS Inspired Sway Profile
+#
+# Window manager: sway (Wayland)
+
+include ~/.config/sway/colors.conf
+
+# Set Mod key to Super (Windows key)
+set $mod Mod4
+
+# Font
+font pango:Plex Mono 12
+
+# Terminal
+bindsym $mod+Return exec foot
+
+# App launcher (fullscreen, neon themed)
+bindsym $mod+d exec wofi --show drun --allow-markup --fullscreen
+
+# Reload and Exit
+bindsym $mod+Shift+c reload
+bindsym $mod+Shift+e exit
+
+# Window focus
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
+
+# Window move
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
+
+# Split mode
+bindsym $mod+v split v
+bindsym $mod+b split h
+
+# Layout toggles
+bindsym $mod+space layout toggle split
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+
+# Fullscreen
+bindsym $mod+f fullscreen
+
+# Kill focused window
+bindsym $mod+q kill
+
+# Workspaces
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+
+bindsym $mod+1 workspace $ws1
+bindsym $mod+2 workspace $ws2
+bindsym $mod+3 workspace $ws3
+bindsym $mod+4 workspace $ws4
+bindsym $mod+5 workspace $ws5
+
+# Move to workspace
+bindsym $mod+Shift+1 move container to workspace $ws1
+bindsym $mod+Shift+2 move container to workspace $ws2
+bindsym $mod+Shift+3 move container to workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5
+
+# Gaps (if using sway-gaps)
+gaps inner 10
+gaps outer 10
+
+# Focus follows mouse (off for touch interfaces)
+focus_follows_mouse no
+
+# Window colors (eDEX style - blue neon on black)
+client.focused          #00ffff #00ffff #000000 #00ffff #00ffff
+client.unfocused        #000000 #000000 #000000 #444444 #000000
+client.urgent           #ff5555 #ff5555 #000000 #ffffff #ff5555
+client.placeholder      #000000 #000000 #000000 #ffffff #000000
+client.background       #000000
+
+# Input config (touch-friendly)
+input "type:touchpad" {
+    tap enabled
+    natural_scroll enabled
+}
+
+# Output config (HiDPI support, scale if needed)
+# output * scale 1.5
+
+# Autostart background, bar, and launcher
+exec swaybg -i ~/Pictures/thronOS_wallpaper.PNG -m fill
+exec waybar
+#exec sleep 1 && wofi --show drun --allow-markup --fullscreen
