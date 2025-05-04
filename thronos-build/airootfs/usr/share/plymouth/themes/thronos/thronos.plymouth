@@ -1,0 +1,7 @@
+[Plymouth Theme]
+Name=ThronOS
+Description=ThronOS Live ISO splash
+ModuleName=script
+
+[script]
+ScriptFile=/usr/share/plymouth/themes/thronos/thronos.script

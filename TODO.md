@@ -8,10 +8,9 @@ BASIC PACKAGE LIST:
 
 PROCESS UPDATES:
 
-- Start window manager; (exec seatd-launch sway)
-
-- Waybar modification
-
-- Network manager in eDEX-UI or sway
-
+- Plymoth Splash Screen
+- Chromium initialization & access
 - eDEX-UI Modification
+- Sway modifications to make it easier to open windows
+- Installation onto machine
+- Make a user and boot it into that
