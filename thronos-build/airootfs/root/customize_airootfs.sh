@@ -14,4 +14,4 @@ systemctl mask reflector.service
 systemctl mask reflector.timer
 systemctl enable seatd.service
 
-pacman -U --noconfirm /root/edex-ui-*.pkg.tar.zst
+#pacman -U --noconfirm /root/edex-ui-*.pkg.tar.zst

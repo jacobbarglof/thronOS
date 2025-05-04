@@ -91,7 +91,10 @@ input "type:touchpad" {
 # Output config (HiDPI support, scale if needed)
 # output * scale 1.5
 
+exec_always --no-startup-id brightnessctl set 100%
+
 # Autostart background, bar, and launcher
-exec swaybg -i ~/Pictures/thronOS_wallpaper.PNG -m fill
-exec waybar
-#exec sleep 1 && wofi --show drun --allow-markup --fullscreen
+exec swaybg -i ~/Pictures/ThronOS_Background.png -m fill
+exec --no-startup-id /bin/sh -c 'pgrep -x waybar >/dev/null || waybar'
+
+exec sleep 1 && wofi --show drun --allow-markup --fullscreen

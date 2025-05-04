@@ -74,6 +74,7 @@
     "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}"
   },
 
+
   "keyboard-state": {
     "numlock": true,
     "capslock": true,

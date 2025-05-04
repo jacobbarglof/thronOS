@@ -136,8 +136,10 @@ tree
 networkmanager
 network-manager-applet
 iwd
+chromium
 
 # Wayland stack
+xorg-xwayland
 waybar
 sway
 wofi
