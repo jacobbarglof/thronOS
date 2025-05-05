@@ -1,4 +1,5 @@
-# ThronOS
+![thronOS logo](https://github.com/user-attachments/assets/588723c7-c6f5-4519-9eef-80859986e857)
+
 # You're Seated on the Thron
 [![Arch Build](https://img.shields.io/badge/build-passing-brightgreen?style=flat\&logo=archlinux)](#)
 
