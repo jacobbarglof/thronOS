@@ -4,6 +4,8 @@
 
 A minimal, customizable Arch Linux ISO powered by ThronOS, featuring a sleek Tron-inspired user interface and a preconfigured ArchISO environment.
 
+This is an early build and NOT RECCOMENDED FOR INSTALLATION for anything important. Use privleged commands with caution
+
 ---
 
 ## Overview
@@ -11,7 +13,6 @@ A minimal, customizable Arch Linux ISO powered by ThronOS, featuring a sleek Tro
 This repository contains the configuration for building a custom Arch Linux live ISO using `archiso`. The ISO includes:
 
 * A preconfigured terminal environment with Tron-themed styles
-* Essential packages for a lightweight, flexible cyberdeck or desktop setup
 * Scripts and assets for generating a custom ArchISO
 
 ---
@@ -20,7 +21,7 @@ This repository contains the configuration for building a custom Arch Linux live
 
 Before you begin, ensure you have the following:
 
-* An existing Arch Linux installation or derivative
+* A Linux machine to compile into an ISO image
 * Internet connectivity
 * Sudo privileges
 
@@ -37,8 +38,8 @@ Before you begin, ensure you have the following:
 2. **Clone this repository**
 
    ```bash
-   git clone https://github.com/<your-org>/thronos-archiso.git
-   cd thronos-archiso
+   git clone https://github.com/jacobbarglof/thronOS.git
+   cd thronOS/thronos-build
    ```
 
 3. **Generate the ISO**
@@ -53,16 +54,15 @@ Before you begin, ensure you have the following:
 4. **Move the resulting ISO**
 
    ```bash
-   mv out/*.iso ~/Downloads/ThronOS-Arch.iso
+   mv out/*.iso ~/Downloads/
    ```
 
 ---
 
 ## Usage
 
-1. Burn `~/Downloads/ThronOS-Arch.iso` to a USB drive using a tool such as `dd` or Etcher.
+1. Burn `~/Downloads/ThronOS-Arch.iso` to a USB drive using a tool such as `dd`, Etcher or Rufus (My personal favorite!).
 2. Boot from the USB drive to enter the live environment.
-3. Follow the standard Arch Linux installation guide to install to disk.
 
 ---
 
