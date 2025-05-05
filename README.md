@@ -57,6 +57,14 @@ Before you begin, ensure you have the following:
    ```bash
    mv out/*.iso ~/Downloads/
    ```
+5. **Enter display environment**
+
+   ```bash
+   sway
+   ```
+
+   * Enter this command once logged into the TTK after booting from live USB
+
 
 ---
 
