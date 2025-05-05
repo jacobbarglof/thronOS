@@ -1,0 +1,7 @@
+Name=Chromium
+Comment=Web Browser
+Exec=chromium --no-sandbox
+Terminal=false
+Type=Application
+Icon=chromium
+Categories=Network;WebBrowser;

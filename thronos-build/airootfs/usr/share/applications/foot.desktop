@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Foot Terminal
+Comment=Wayland terminal emulator
+Exec=foot
+Terminal=false
+Type=Application
+Icon=utilities-terminal
+Categories=Utility;TerminalEmulator;

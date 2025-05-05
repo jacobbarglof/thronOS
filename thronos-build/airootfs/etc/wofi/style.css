@@ -1,0 +1,27 @@
+/* TronOS Wofi Theme */
+window {
+    background-color: #000000;
+    border: 2px solid #00FFFF;
+    border-radius: 8px;
+    margin: 20px;
+  }
+  
+  listview {
+    spacing: 8px;
+    padding: 12px;
+  }
+  
+  listview row {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 16pt;
+    color: #00FFFF;
+  }
+  
+  listview row:selected {
+    background-color: #005F5F;
+    color: #FFFFFF;
+  }
+  
+  scrollbar {
+    background: #001111;
+  }
