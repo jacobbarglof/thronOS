@@ -5,7 +5,7 @@
 
 A minimal, customizable Arch Linux ISO powered by ThronOS, featuring a sleek Tron-inspired user interface and a preconfigured ArchISO environment.
 
-This is an early build and NOT RECCOMENDED FOR INSTALLATION for anything important. Use privleged commands with caution
+This is an early build and NOT RECOMENDED FOR INSTALLATION for anything important. Use privleged commands with caution
 
 ---
 
