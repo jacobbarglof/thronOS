@@ -5,7 +5,7 @@
 [![Arch Build](https://img.shields.io/badge/build-passing-brightgreen?logo=archlinux)](#)
 [![License: GPL-3.0](https://img.shields.io/badge/license-GPL%20v3-blue)](LICENSE)
 
-> ⚠ **Early alpha** Use privleged commands with caution.  
+> ⚠ **EARLY ALPHA** Use privleged commands with caution.  
 > Filesystem alterations on alternate partitions may erase data: double-check every step.
 
 ---
@@ -116,6 +116,6 @@ thronos-build/
 
 
 ## License
-This repo is **GPL-3.0**.
+This repo is **MIT**.
 
 > *You are now seated on the Thron.*
